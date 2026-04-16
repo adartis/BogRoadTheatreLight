@@ -1,0 +1,105 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+
+.home-container1 {
+  width: 100%;
+  min-height: 100vh;
+}
+ 
+.home-thq-hero-banner-elm {
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.home-thq-hero-banner-media-elm {
+  width: 1200px;
+}
+ 
+.home-thq-hero-banner-img-elm {
+  width: 1200px;
+}
+ 
+.home-thq-hero-banner-overlay-elm {
+  width: 1199px;
+}
+ 
+.home-thq-hero-banner-container-elm {
+  width: 640px;
+  height: 613px;
+}
+ 
+.home-thq-gallery-teaser-overlay-elm {
+  height: 601px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-logo-image {
+  height: 40px; /* Change this number to make the logo larger or smaller */
+  width: auto;  /* This keeps the image from stretching out of proportion */
+  object-fit: contain;
+  display: block;
+}
+ 
+.home-container2 {
+  display: none;
+}
+ 
+.home-container3 {
+  display: contents;
+}
+ 
+@media(max-width: 1200px) {
+  .home-thq-hero-banner-img-elm {
+    width: auto;
+  }
+  .home-thq-hero-banner-overlay-elm {
+    width: auto;
+  }
+  .home-thq-hero-banner-container-elm {
+    top: 0px;
+    left: 237px;
+    width: 517px;
+    position: static;
+  }
+  .home-thq-hero-banner-content-elm {
+    width: 400px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .home-thq-hero-banner-media-elm {
+    left: -287px;
+    width: 479px;
+    bottom: -3px;
+  }
+}

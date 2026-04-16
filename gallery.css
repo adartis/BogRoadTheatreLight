@@ -1,0 +1,62 @@
+
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  display: contents;
+}
+
+.navigation-container2 {
+  display: none;
+}
+
+.navigation-container3 {
+  display: contents;
+}
+
+.navigation-logo-image {
+  height: 40px; /* Change this number to make the logo larger or smaller */
+  width: auto;  /* This keeps the image from stretching out of proportion */
+  object-fit: contain;
+  display: block;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+
+.gallery-container1 {
+  width: 100%;
+  min-height: 100vh;
+}
+ 
+.gallery-thq-masonry-overlay-elm10 {
+  height: 255px;
+}
+ 
+.gallery-container2 {
+  display: none;
+}
+ 
+.gallery-container3 {
+  display: contents;
+}
+ 
+@media(max-width: 479px) {
+  .gallery-thq-masonry-overlay-elm10 {
+    height: 200px;
+  }
+}
