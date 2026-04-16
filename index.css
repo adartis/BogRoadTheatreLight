@@ -41,20 +41,20 @@
 }
  
 .home-thq-hero-banner-media-elm {
-  width: 1200px;
+  width: 100%;
 }
  
 .home-thq-hero-banner-img-elm {
-  width: 1200px;
+  width: 100%;
 }
  
 .home-thq-hero-banner-overlay-elm {
-  width: 1199px;
+  width: 100%;
 }
  
 .home-thq-hero-banner-container-elm {
-  width: 640px;
-  height: 613px;
+  width: 100%;
+  height: 100%;
 }
  
 .home-thq-gallery-teaser-overlay-elm {
